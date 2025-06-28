@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap"
+			rel="stylesheet"
+		/>
+		<script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+		<title>Document</title>
+		<style>
+			.custome-border {
+				border: 1px solid black;
+				box-shadow: 9px 9px;
+				border-radius: 8px;
+			}
+			.figtree {
+				font-family: "Figtree", sans-serif;
+			}
+		</style>
+	</head>
+	<body
+		class="bg-[#F4D04E] flex justify-center items-center my-auto my-auto h-screen figtree"
+	>
+		<div
+			class="p-6 flex flex-col justify-center gap-6 bg-white custome-border w-98 max-sm:w-83.75"
+		>
+			<img
+				src="./assets/Blog Image.png"
+				alt="Blog Image"
+				height="200px"
+				width="336"
+			/>
+			<div class="flex flex-col items-start gap-3">
+				<button
+					class="px-3 py-1 bg-[#F4D04E] font-extrabold rounded max-sm:text-xs"
+				>
+					Learning
+				</button>
+				<span class="font-medium max-sm:text-xs">Published 21 Dec 2023</span>
+				<h1
+					class="font-extrabold text-2xl hover:text-[#F4D04E] cursor-pointer max-sm:text-xl"
+				>
+					HTML & CSS foundations
+				</h1>
+				<p class="text-[#979797] font-medium leading-[150%] max-sm:text-sm">
+					These languages are the backbone of every website, defining structure,
+					content, and presentation.
+				</p>
+			</div>
+			<div class="flex gap-3 font-extrabold items-center max-sm:text-sm">
+				<img src="./assets/userpic.png" alt="" class="size-8" />
+				<span>Greg Hooper</span>
+			</div>
+		</div>
+	</body>
+</html>
